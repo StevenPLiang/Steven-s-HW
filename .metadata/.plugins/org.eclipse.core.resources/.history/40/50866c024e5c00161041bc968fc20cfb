@@ -1,0 +1,11 @@
+public class MultiArray
+{
+	private int[][] grid;
+	
+	
+		
+	public static void patternRow(){
+		
+	}
+	
+}

@@ -1,10 +1,16 @@
 
-public class Hw2 {
+public class Hw2
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		
 		MultiArray hw= new MultiArray();
-		hw.printArray();
+		hw.patternRow();
+		System.out.println();
+		hw.patterCheckered();
+		System.out.println();
+		hw.userChoice();
 	}
 
 }
