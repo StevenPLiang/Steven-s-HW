@@ -172,3 +172,102 @@ java.net.UnknownHostException: www.codetrails.com: unknown error
 	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
 	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-08-06 23:46:08.513
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob
+!SESSION 2016-08-11 17:07:19.334 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/stevenliang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/stevenliang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2016-08-11 17:07:27.356
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-11 17:07:27.356
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ef61cd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2173e4d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2016-08-11 17:07:27.947
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-08-11 17:07:34.221
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-08-11 17:07:36.195
+!MESSAGE Monitoring content of /Users/stevenliang/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-08-11 17:07:36.197
+!MESSAGE AWS toolkit core plugin initialized after 1976 milliseconds.
+
+!ENTRY org.eclipse.ui 2 0 2016-08-11 17:07:36.210
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2016-08-11 17:07:42.886
+!MESSAGE Downloading the SDK from CloudFront to location /var/folders/lr/vlcct6rx60q0n278hj7fhx900000gn/T/aws-java-sdk5874877944171744901/sdk.zip
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2016-08-11 17:15:46.144
+!MESSAGE SDK download completes. Location: /var/folders/lr/vlcct6rx60q0n278hj7fhx900000gn/T/aws-java-sdk5874877944171744901/sdk.zip, File-length: 203021010
+!SESSION 2016-08-11 17:37:08.341 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/stevenliang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/stevenliang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2016-08-11 17:37:20.489
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-11 17:37:20.489
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18dafd3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2954c429,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2016-08-11 17:37:21.063
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-08-11 17:37:27.432
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-08-11 17:37:28.517
+!MESSAGE Monitoring content of /Users/stevenliang/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-08-11 17:37:28.519
+!MESSAGE AWS toolkit core plugin initialized after 1088 milliseconds.
+
+!ENTRY org.eclipse.ui 2 0 2016-08-11 17:37:28.527
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!

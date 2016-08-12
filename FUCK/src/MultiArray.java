@@ -41,7 +41,8 @@ public class MultiArray
 		printArray();
 	}
 	
-	public void patterCheckered(){
+	public void patterCheckered()
+	{
 		for(int column = 0; column < 10; column++)
 		{				
 			for(int row = 1; row < 10; row+=2)
@@ -59,6 +60,7 @@ public class MultiArray
 		printArray();
 	}	
 	public void userChoice(){
+		int inputCounter = 0;
 		Scanner Input = new Scanner(System.in);
 		int []userInput;
 		userInput = new int[3];
@@ -67,7 +69,18 @@ public class MultiArray
 			System.out.print("Please enter our choice: ");
 			userInput[i] = Input.nextInt();
 		}
-		
+		System.out.println();
+		for(int column = 0; column < 10; column++)
+		{				
+			for(int row = 0; row < 10; row++)
+			{
+				grid[column][row] = userInput[inputCounter];
+				inputCounter++;
+				if(inputCounter == 3){
+					inputCounter = 0;
+				}	
+			}
+		}	
 		printArray();
 	}
 }
